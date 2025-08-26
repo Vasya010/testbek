@@ -34,7 +34,7 @@ const bucketName = process.env.S3_BUCKET || "a2c31109-3cf2c97b-aca1-42b0-a822-3e
 
 // CORS Middleware with specific configuration
 app.use(cors({
-  origin: ['http://aksarayned.ru', 'http://cs51703.tw1.ru'],
+  origin: ['https://aksarayned.ru', 'http://cs51703.tw1.ru'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
